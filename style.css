@@ -35,7 +35,7 @@
     font-size: 70px;
   }
   
-  .skillsAndProjects {
+.skillsAndProjects {
     display: flex;
     flex-flow: row;
     align-content: center;
@@ -66,8 +66,25 @@
     height: 25px;
   }
   
-  .linkedin,
-  .github {
+  #contact {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin-left: 20%;
+  }
+  
+  footer {
+    bottom: 0;
+    border-top: 2px solid rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    width: 65%;
+    margin-left: 20%;
+  }
+
+  a.linkedin,
+  a.github {
     background-color: rgb(233, 130, 130);
     border-radius: 5px;
     padding: 7px;
@@ -76,27 +93,10 @@
     margin: 5px;
   }
   
-  .linkedin:hover,
-  .github:hover {
+  a.linkedin:hover,
+  a.github:hover {
     background-color: rgb(163, 67, 67);
     border-radius: 5px;
     padding: 7px;
     color: white;
-  }
-  
-  #contact {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
-    margin-left: 20%;
-  }
-  
-  #footer {
-    bottom: 0;
-    border-top: 2px solid rgb(255, 255, 255);
-    margin-left: 20px;
-    margin-right: 20px;
-    text-align: center;
-    width: 65%;
-    margin-left: 20%;
   }
