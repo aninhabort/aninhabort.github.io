@@ -57,6 +57,10 @@ nav a {
   border-radius: 5px;
 }
 
+#project div a:hover {
+  background-color:  rgb(163, 67, 67);
+}
+
 .forms label {
   display: flex;
   flex-flow: column;
@@ -107,18 +111,20 @@ footer {
 
 a.linkedin,
 a.github {
-  background-color: rgb(233, 130, 130);
+  border: 2px solid rgb(233, 130, 130);
   border-radius: 5px;
   padding: 7px;
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   margin: 5px;
 }
 
 a.linkedin:hover,
-a.github:hover {
+a.github:hover,
+#submit_form:hover {
   background-color: rgb(163, 67, 67);
-  border-radius: 5px;
-  padding: 7px;
-  color: white;
+}
+
+#submit_form {
+  border: 2px solid rgb(233, 130, 130);
 }
