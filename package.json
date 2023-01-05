@@ -1,0 +1,19 @@
+{
+  "name": "aninhabort.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aninhabort/aninhabort.github.io.git"
+  },
+  "author": "aninhabort <carol2015bortolini@gmail.com> (https://github.com/aninhabort)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aninhabort/aninhabort.github.io/issues"
+  },
+  "homepage": "https://aninhabort.github.io"
+}
