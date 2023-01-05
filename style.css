@@ -28,8 +28,8 @@ nav a {
   display: flex;
   flex-flow: column wrap;
   margin: 100px;
-  text-align: justify;
-  justify-content: space-evenly;
+  text-align: left;
+  justify-content: space-around;
 }
 
 #header h3 {
@@ -38,6 +38,7 @@ nav a {
 
 #header h1 {
   font-size: 70px;
+  width: 450px;
 }
 
 #skills ul li {
