@@ -2,6 +2,7 @@
   background-color: black;
   color: white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
 }
 
 html {
@@ -19,26 +20,44 @@ nav a {
   color: rgb(255, 255, 255);
   margin-right: 10px;
   text-decoration: none;
+  font-size: large;
 }
 
-#header,
+#header {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-content: center;
+  width: fit-content;
+}
+
 #skills,
 #project,
 #contact {
   display: flex;
-  flex-flow: column wrap;
-  margin: 100px;
-  text-align: left;
-  justify-content: space-around;
+  flex-flow: column;
+  margin: auto;
 }
 
 #header h3 {
-  color: rgb(233, 130, 130);
+  font-size: x-large;
+  margin-left: 30px;
 }
 
-#header h1 {
+.title {
+  color: rgb(233, 130, 130);
   font-size: 70px;
-  width: 450px;
+  font-size: 150px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+h2 {
+  font-size: x-large;
 }
 
 #skills ul li {
@@ -49,9 +68,9 @@ nav a {
   margin: 5px;
 }
 
-#project div a {
+.link {
   margin: 10px;
-  padding: 5px;
+  padding: 5px 10px;
   text-decoration: none;
   border: 2px solid rgb(233, 130, 130);
   border-radius: 5px;
@@ -61,7 +80,12 @@ nav a {
   background-color:  rgb(163, 67, 67);
 }
 
-.forms label {
+.middle {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.forms div label {
   display: flex;
   flex-flow: column;
   margin-top: 5px;
@@ -70,19 +94,18 @@ nav a {
   padding: 10px;
 }
 
-.forms input,
-.forms textarea {
-  margin-top: 10px;
-  border: 2px solid white;
+.forms div label input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid rgb(255, 255, 255);
   border-radius: 5px;
-}
-
-.forms textarea {
-  height: 100px;
-}
-
-.forms input {
   height: 25px;
+}
+
+.submit {
+  border: 2px solid rgb(233, 130, 130);
+  border-radius: 5px;
+  padding: 5px 10px;
 }
 
 #contact {
@@ -90,6 +113,7 @@ nav a {
   flex-flow: column wrap;
   align-content: center;
   justify-content: space-evenly;
+  margin: 30px;
 }
 
 #buttonFixed {
@@ -121,10 +145,6 @@ a.github {
 
 a.linkedin:hover,
 a.github:hover,
-#submit_form:hover {
+.submit:hover {
   background-color: rgb(163, 67, 67);
-}
-
-#submit_form {
-  border: 2px solid rgb(233, 130, 130);
 }
